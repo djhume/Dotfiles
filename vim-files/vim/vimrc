@@ -65,7 +65,7 @@ nnoremap / /\v
 vnoremap / /\v
 set ignorecase
 set smartcase
-set gdefault
+"set gdefault
 set incsearch
 set showmatch
 set hlsearch
@@ -218,6 +218,25 @@ nmap <leader>j <ESC>:RopeGotoDefinition<cr>
 " Tagbar key bindings."
 nmap <leader>l <ESC>:TagbarToggle<cr>
 imap <leader>l <ESC>:TagbarToggle<cr>i
+
+let mapleader=','
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+  nmap <Leader>a, :Tabularize /,<CR>
+  vmap <Leader>a, :Tabularize /,<CR>
+endif
+
+" Powerline
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
 
 " Snipmate remap settings. It's binding overwritten standard
 " bindings.

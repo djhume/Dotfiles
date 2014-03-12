@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/haridas/.kde/share/services'
 let g:netrw_dirhist_2='/mnt/backup/mypc/sparksupport-backups/sparksupport-office/backup/home_dir/Desktop/server_pkgs'
 let g:netrw_dirhist_3='/mnt/backup/mypc/sparksupport-backups/sparksupport-office/backup/home_dir/Desktop/projects/Ipmonitoring'
+let g:netrw_dirhist_4='/home/humed/python/pivot/wolak/CTCT_NI'
+let g:netrw_dirhist_5='/home/humed/python/pivot/wolak/Output/CTCT_SI'
+let g:netrw_dirhist_6='/home/humed/python/pivot/wolak/CTCT_NI/IRDE'
+let g:netrw_dirhist_7='/home/humed/python/EAtools/EAtools/EAstyles'
